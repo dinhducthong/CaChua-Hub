@@ -143,7 +143,7 @@ function Text(value)
     game.StarterGui:SetCore("SendNotification", {
         Title = "CaChua Notification", 
         Text = tostring(value),
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "http://www.roblox.com/asset/?id=4688175775",
         Duration = 10
     })
 end
@@ -151,7 +151,7 @@ function Com()
     game.StarterGui:SetCore("SendNotification", {
         Title = "CaChua Notification", 
         Text = "✅  Complete",
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "http://www.roblox.com/asset/?id=4688175775",
         Duration = 5
     })
 end
@@ -2258,7 +2258,7 @@ if IKAI then
 		ToggleImgUi.BackgroundTransparency = 1
 		ToggleImgUi.Position = UDim2.new(0.0454545468, 0, 0.125000313, 0)
 		ToggleImgUi.Size = UDim2.new(0, 35, 0, 35)
-		ToggleImgUi.Image = "rbxassetid://9606070311"
+		ToggleImgUi.Image = "rbxassetid://4688175775"
 		-- http://www.roblox.com/asset/?id=9605991378
 		Uitoggle.Name = "Uitoggle"
 		Uitoggle.Parent = ToggleFrameUi
@@ -2399,7 +2399,7 @@ if IKAI then
 	ImageLabelfps.BackgroundTransparency = 1.000
 	ImageLabelfps.Position = UDim2.new(0.083989636, 0, 0.15545856, 0)
 	ImageLabelfps.Size = UDim2.new(0, 29, 0, 29)
-	ImageLabelfps.Image = "rbxassetid://9606070311"
+	ImageLabelfps.Image = "rbxassetid://4688175775"
 	
 	ImageLabeltime.Name = "ImageLabeltime"
 	ImageLabeltime.Parent = Frametime
@@ -2407,7 +2407,7 @@ if IKAI then
 	ImageLabeltime.BackgroundTransparency = 1.000
 	ImageLabeltime.Position = UDim2.new(0.083989636, -9, 0.15545856, 0)
 	ImageLabeltime.Size = UDim2.new(0, 29, 0, 29)
-	ImageLabeltime.Image = "rbxassetid://9606070311"
+	ImageLabeltime.Image = "rbxassetid://4688175775"
 	
 	
 	Framefps.MouseEnter:Connect(function()
@@ -3695,7 +3695,7 @@ game.StarterGui:SetCore("SendNotification", {
 	Duration = 8
 })
 
-local win = library:Window("CaChua ",[[ Hub]],[[Version : CucVip ]],"9606070311",Enum.KeyCode.RightControl)
+local win = library:Window("CaChua ",[[ Hub]],[[Version : CucVip ]],"4688175775",Enum.KeyCode.RightControl)
 local General_Tab = win:Tab("General",[[7040391851]])
 local Quest_Tab = win:Tab("    Quest & Item",[[9606626859]])
 local PvP_Tab = win:Tab("PvP",[[9606626034]])
@@ -10580,8 +10580,8 @@ function HopServer()
 		_G.TP_Ser = true
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Hop Low Server ", 
-			Text = "กำลังหาเซิฟ",
-			Icon = "http://www.roblox.com/asset/?id=9606070311",
+			Text = "Dang Tim Server",
+			Icon = "http://www.roblox.com/asset/?id=4688175775",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10607,7 +10607,7 @@ function HopServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "Hop Low Server ", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "http://www.roblox.com/asset/?id=9606070311",
+					Icon = "http://www.roblox.com/asset/?id=4688175775",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10660,9 +10660,9 @@ function HopLowServer()
 	if not _G.TP_Ser then
 		_G.TP_Ser = true
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Hop Server S", 
-			Text = "กำลังหาเซิฟ",
-			Icon = "http://www.roblox.com/asset/?id=9606070311",
+			Title = "Hop Server", 
+			Text = "Dang tim server",
+			Icon = "http://www.roblox.com/asset/?id=4688175775",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10688,7 +10688,7 @@ function HopLowServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "HopServer", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "http://www.roblox.com/asset/?id=9606070311",
+					Icon = "http://www.roblox.com/asset/?id=4688175775",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10744,7 +10744,7 @@ Island_Tab:Button("Re join Server",function()
 	game.StarterGui:SetCore("SendNotification", {
         Title = "Re Join Server", 
         Text = "Ready Go!",
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "http://www.roblox.com/asset/?id=4688175775",
         Duration = 10
     })
 	_G.TP_Ser = true
